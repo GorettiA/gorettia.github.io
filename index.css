@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    max-width: 2000px;
+}
+
+body {
+    background-image: url(purple-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    height: 100px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 60px;
+    word-spacing: 50px;
+}
+
+.menu {
+    color: linen;
+    font-size: larger;
+    text-decoration: none;
+}
+
+header {
+    position:relative;
+    margin-top: 150px;
+    color:linen;
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    text-decoration-line: line-through;
+}
+
+button {
+    background-color:mediumvioletred;
+    padding: 15px 32px;
+    border-radius: 5px;
+    border: none;
+    color:midnightblue;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    margin:auto;
+}
+
+p {
+    color: linen;
+    text-align: center;
+}
+
+#avatar {
+    display: flex;
+    margin:auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
+
