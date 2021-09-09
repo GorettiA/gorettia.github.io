@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    max-width: 2000px;
 }
 
 body {
+    max-width: 2000px;
     background-image: url(purple-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -32,8 +32,12 @@ header {
     font-size: 30px;
 }
 
-span {
+#subheading {
     text-decoration-line: line-through;
+}
+
+#quote {
+    font-style: italic;
 }
 
 button {
@@ -47,6 +51,7 @@ button {
     cursor: pointer;
     display: flex;
     margin:auto;
+    margin-top: 50px;
 }
 
 p {
@@ -57,6 +62,7 @@ p {
 #avatar {
     display: flex;
     margin:auto;
+    margin-top: 40px;
     height: 150px;
     width: 150px;
     border-radius: 200px;

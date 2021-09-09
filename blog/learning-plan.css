@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    color:linen;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+body {
+    max-width: 2000px;
+    background-image: url(../purple-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:mediumorchid;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-topic {
+    width: 850px;
+    border: midnightblue;
+    border-style: solid;
+    margin:auto;
+    margin-bottom: 100px;
+    padding: 40px;
+    font-size: large;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0,0.4);
+    
+}
+
+#main-subtitle {
+    color:mediumorchid;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
