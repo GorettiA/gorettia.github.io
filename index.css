@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 
+
 body {
-    max-width: 2000px;
+    width: 100%;
+    height: 100vh;
     background-image: url(purple-background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
