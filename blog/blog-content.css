@@ -5,24 +5,9 @@
     
 }
 
-@media screen and (min-device-width: 400px) {
-    body {
-       max-width: max-content;
-       background-image: url(purple-background.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
-       font-family: 'Ubuntu', sans-serif;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .blog-topic {
-        flex-direction: column;
-    }
-}
-
 body {
-    max-width: 2000px;
+    width: 100%;
+    position:relative;
     background-image: url(../purple-background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
