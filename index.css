@@ -30,17 +30,22 @@ header {
     color:linen;
     text-align: center;
     font-size: 30px;
+    letter-spacing: 5px;
 }
 
 #subheading {
     text-decoration-line: line-through;
 }
 
-#quote {
-    font-style: italic;
+h3 {
+    font-size: larger;
+    color: linen;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-button {
+/* button {
     background-color:mediumvioletred;
     padding: 15px 32px;
     border-radius: 5px;
@@ -52,12 +57,7 @@ button {
     display: flex;
     margin:auto;
     margin-top: 50px;
-}
-
-p {
-    color: linen;
-    text-align: center;
-}
+} */
 
 #avatar {
     display: flex;
@@ -68,3 +68,13 @@ p {
     border-radius: 200px;
 }
 
+.contents {
+    letter-spacing: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: mediumvioletred;
+    font-size: larger;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}

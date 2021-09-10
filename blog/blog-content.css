@@ -43,3 +43,12 @@ a {
     display: flex;
     justify-content: center;
 }
+
+#avatar {
+    display: flex;
+    margin:auto;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+}
