@@ -56,7 +56,15 @@ a {
 }
 
 .gifs {
-    width: 190px;
+    width: 220px;
     height: 190px;
-    align-content: center;
+    display: flex;
+    margin:auto;
+}
+
+#booksmart {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    margin: auto;
 }
