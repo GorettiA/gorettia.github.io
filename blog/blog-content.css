@@ -60,6 +60,7 @@ a {
     height: 190px;
     display: flex;
     margin:auto;
+    border-radius: 10px;
 }
 
 #booksmart {
@@ -67,4 +68,5 @@ a {
     height: 550px;
     display: flex;
     margin: auto;
+    border-radius: 10px;
 }
