@@ -1,22 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="blog-content.css" rel="stylesheet" type="text/css">
-    <title>CSS Selectors Class & ID</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link href="blog-content.css" rel="stylesheet" type="text/css" />
+    <title>JS Fundamentals</title>
+  </head>
 
-<body>
+  <body>
     <header class="header-container">
-        <h1 class="header-title">css selectors: class or id?</h1> <!-- single word for topic -->
-        <nav class="header-nav">
-            <a id="nav-back" href="../index.html">
-                <img id="avatar" src="../avatar-g.png" alt="back to home">
-                </a>
-            </nav>
-      </header>
+      <h1 class="header-title">it's me - javascript</h1>
+      <!-- single word for topic -->
+      <nav class="header-nav">
+        <a id="nav-back" href="../index.html">
+          <img id="avatar" src="../avatar-g.png" alt="back to home" />
+        </a>
+      </nav>
+    </header>
+
+    <section class="blog-topic">
+      <h3 id="main-subtitle">my relationship with HTML, CSS and the DOM</h3>
+      <p>
+        hi I'm javascript! the baddest MF in the programming world - the
+        G.O.A.T! I have extremely close relations with HTML, CSS and the DOM
+        because they are my portal to your world and vice versa.
+      </p>
+
+      <p>
+        Through the DOM, we three can interact with you - yes YOU beautiful
+        human, everytime you click, hover or submit a form on a website - and
+        much more! You could say (but not too loudly) that I'm dependent on
+        these guys but don't let them know that or I'll never hear the end of
+        it.
+      </p>
+      <br />
+
+      <img id="dom" src="../the-dom.jpg" /><br />
+
+      <p>
+        Speaking of the DOM, well he's pretty badass too. Some will say he holds
+        the key to said portal, but actually - he IS the portal. Though he lives
+        amongst a forest of object trees full of nodes and is a stickler for
+        methods and properties, he's easily manipulated and that works to our
+        advantage. It makes updating and controlling HTML things on-the-fly much
+        easier.
+      </p>
+
+      <p>
+        Get on his good side and you can call him by his first name
+        'document.' or his alias 'element.'- don't forget that dot! You'll need
+        it to access stuff from my objects - but I'll talk about that in a
+        minute.
+      </p>
+    </section>
+
+    <section class="blog-topic">
+      <h3 id="main-subtitle">control flow and two of my bff's</h3>
+      <p>
+        I'm not proud of it but I'm a control freak with a tad bit of OCD. I
+        perform all my tasks in a certain and very specific order. My childhood
+        friends all know this about me, they even help to keep things under
+        control so I don't lose my shit if things go out of order.
+      </p>
+
+      <p>
+        My bestie Loops can attest to this. For example I taught her my tea-
+        making process and she practiced it over and over repeatedly, you know -
+        in a loop, only she kept forgetting some steps so I had to include
+        conditional statements so she'd remember.
+      </p>
+      <p>for each cup of tea do this:</p>
+
+      <ul>
+        <li>get the kettle on</li>
+        <li>get a clean mug and put tea-bag of choice inside</li>
+        <li>
+          DO NOT put milk in before water or you'll have wasted perfectly good
+          tea
+        </li>
+      </ul>
+
+      <p>if user adds milk before water, return 'fail', else do this:</p>
+      <ul>
+        <li>when kettle has boiled, add hot water to mug</li>
+        <li>let tea-bag steep for 3min</li>
+        <li>add milk of your choice</li>
+      </ul>
+
+      <p>return 'sip, relax and enjoy'.</p>
+      <p>
+        My BFF Functions then came along and automated this entire tea-making
+        loop. He called it 'makeTea', bundled it into a package and slapped a fat
+        arrow on top. Now everytime I want to make tea I just call 'makeTea(engBreakfast)'
+        and voila! a perfect cuppa every time. What can I say? My friends are
+        pretty awesome.
+      </p>
+
+      <img
+        class="gifs"
+        src="https://media.giphy.com/media/jskYMsGashYUnHFuFP/giphy.gif"
+        alt="tea"
+      />
+    </section>
+
+    <section class="blog-topic">
+      <h3 id="main-subtitle">i keep things nice and tidy</h3>
+      <p>
+        Ok ok now you know I'm a control freak with specific repeptitive actions
+        that are bundled into functions, so of course it's no surprise I store
+        my belongings in a very orderly manner using arrays and objects.
+      </p>
+      <p>
+        Every [item] in one of my drawers (I call them arrays) is accounted for
+        with an index.<br />
+
+        <br /><img src="../array-example.jpg" />
+      </p>
+
+      <p>
+        It always starts at zero so you if you need a scarf for the day just
+        write drawer[1] and hey presto, I present - your scarves.
+      </p>
+      <p>
+        I also keep an inventory of exactly what type of items are in my
+        drawers! I usually keep this inventory as an object - a collection of
+        properties that are key value pairs.<br />
+
+        <br /><img src="../object-example.jpg" />
+      </p>
+      <p>
+        there's that dot again! Use it to access or change properties of an
+        object.
+      </p>
+      <p>
+        well I hope you've enjoyed getting to know a bit about me. I
+        may be difficult to love as I'm very complex, pedantic and sometimes
+        uncooperative but once you know me I promise it's all worth it.
+        Ciaoooooo!
+      </p>
+    </section>
+
+    <section class="blog-topic">
+      <h3 id="main-subtitle">shout out to</h3>
+      <p>The real MVP: Colt Steele via Udemy and</p>
+      <p>Old faithfuls: W3 Schools and MDN via Google</p>
+    </section>
+
+    <a href="../index.html">
+      <img id="avatar" src="../avatar-g.png" />
+    </a>
+  </body>
+</html>
