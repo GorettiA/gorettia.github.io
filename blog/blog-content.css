@@ -82,4 +82,5 @@ a {
 .screenshot {
     display: flex;
     margin:auto;
+    border-radius: 10px;
 }
