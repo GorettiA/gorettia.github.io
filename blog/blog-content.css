@@ -78,3 +78,8 @@ a {
     margin:auto;
     border-radius: 10px;
 }
+
+.screenshot {
+    display: flex;
+    margin:auto;
+}
