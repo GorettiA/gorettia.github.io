@@ -24,6 +24,8 @@ h1 {
 }
 
 .blog-topic {
+    display: flex;
+    flex-direction: column;
     width: 850px;
     border: midnightblue;
     border-style: solid;
