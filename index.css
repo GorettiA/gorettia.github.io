@@ -81,3 +81,14 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+.sub-content {
+    letter-spacing: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    color:paleturquoise;
+    font-size: larger;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
