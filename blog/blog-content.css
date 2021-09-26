@@ -1,7 +1,8 @@
 * {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	color: linen;
 	font-family: 'Ubuntu', sans-serif;
+	display: block;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Ubuntu', sans-serif;
+	display: block;
 }
 
 h1 {
@@ -89,4 +91,8 @@ a {
 	display: flex;
 	margin: auto;
 	border-radius: 10px;
+}
+
+p {
+	display: block;
 }
